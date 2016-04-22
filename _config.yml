@@ -8,6 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://blog.prokrams.com" # the base hostname & protocol for your site
 twitter_username: mletterle 
 github_username: mletterle	 
-
+permalink: pretty
+# Theme: Jekyll-Pithy
 # Build settings
 markdown: kramdown
