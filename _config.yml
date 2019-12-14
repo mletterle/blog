@@ -19,6 +19,7 @@ plugins:
     - jekyll-paginate
     - jekyll-feed
     - jekyll-avatar
+    - jekyll-seo-tag
 
 paginate: 5
 
