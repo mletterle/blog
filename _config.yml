@@ -21,6 +21,7 @@ plugins:
     - jekyll-avatar
     - jekyll-seo-tag
     - jekyll-sitemap
+    - jemoji
 
 paginate: 5
 
