@@ -1,6 +1,10 @@
 <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
+{% if page.title == "Home" %}
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
+{% else %}
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+{% endif %}
 
 <!-- Toggleable sidebar -->
 <div class="sidebar center" id="sidebar">
@@ -15,7 +19,7 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+    <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}/">Home</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
