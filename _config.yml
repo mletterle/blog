@@ -20,6 +20,8 @@ kramdown:
 
 highlighter: rouge
 
+timezone: "America/New_York"
+
 exclude:
     - CNAME
     - README.md
