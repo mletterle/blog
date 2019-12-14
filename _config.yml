@@ -1,7 +1,15 @@
 # Site settings
 title: Michael Letterle's Blog 
 description: Phenomenal Cosmic Powers in an itty bitty cubicle 
-email: blog@prokrams.com
+
+author:
+    name: Michael Letterle
+    email: blog@prokrams.com
+    twitter: mletterle
+    github: mletterle
+    stackoverflow: 65235
+
+
 url: "https://blog.prokrams.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 permalink: pretty
