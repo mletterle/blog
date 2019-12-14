@@ -1,5 +1,5 @@
 This is Michael Letterle's blog
 
-Blog theme based on Jekyll-Pithy: https://github.com/smallmuou/Jekyll-Pithy
+Blog theme based on [Lanyon](https://github.com/poole/lanyon)
 
 

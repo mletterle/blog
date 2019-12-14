@@ -1,14 +1,12 @@
 # Site settings
-title: The ProKrammer 
-motto: Phenomenal Cosmic Powers in an itty bitty cubicle 
+title: Michael Letterle's Blog 
+description: Phenomenal Cosmic Powers in an itty bitty cubicle 
 email: blog@prokrams.com
-description: > # this means to ignore newlines until "baseurl:"
- Michael Letterle's simple blog
-baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://blog.prokrams.com" # the base hostname & protocol for your site
-twitter_username: mletterle 
-github_username: mletterle	 
+baseurl: "" # the subpath of your site, e.g. /blog/
 permalink: pretty
-# Theme: Jekyll-Pithy
-# Build settings
 markdown: kramdown
+paginate: 5
+
+plugins:
+    - jekyll-paginate
