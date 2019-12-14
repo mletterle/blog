@@ -5,8 +5,18 @@ email: blog@prokrams.com
 url: "https://blog.prokrams.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 permalink: pretty
-markdown: kramdown
-paginate: 5
+
+kramdown:
+    input: GFM
+
+highlighter: rouge
+
+exclude:
+    - CNAME
+    - README.md
 
 plugins:
     - jekyll-paginate
+
+paginate: 5
+
