@@ -9,6 +9,7 @@ author:
     github: mletterle
     stackoverflow: 65235
 
+google_analytics: UA-1097486-4
 
 url: "https://blog.prokrams.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
