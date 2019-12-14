@@ -20,6 +20,7 @@ plugins:
     - jekyll-feed
     - jekyll-avatar
     - jekyll-seo-tag
+    - jekyll-sitemap
 
 paginate: 5
 
