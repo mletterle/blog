@@ -1,0 +1,9 @@
+img.avatar {
+ border-radius: 50%;
+ margin: auto;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}

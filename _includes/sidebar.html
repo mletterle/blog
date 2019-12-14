@@ -3,10 +3,15 @@
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
 
 <!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
+<div class="sidebar center" id="sidebar">
   <div class="sidebar-item">
-    <p style="margin: auto">{% avatar mletterle size=128%}</p>
+    <p>{% avatar mletterle size=128%}</p>
     <p>{{ site.description }}</p>
+    <p>
+        <a href="http://twitter.com/{{ site.author.twitter }}" target="_blank"><span class="fab fa-twitter fa-lg"></span></a>
+        <a href="http://github.com/{{ site.author.github }}" target="_blank"><span class="fab fa-github fa-lg"></span></a>
+        <a href="http://stackoverflow.com/users/{{ site.author.stackoverflow }}" target="_blank"><span class="fab fa-stack-overflow fa-lg"></span></a>
+    </p>
   </div>
 
   <nav class="sidebar-nav">
@@ -30,7 +35,7 @@
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }} {{ author.name }}. All rights reserved.
+    &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved. <a href="/feed.xml" target="_blank"><span class="fas fa-rss-square"></span></a>
     </p>
   </div>
 </div>
