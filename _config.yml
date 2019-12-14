@@ -18,6 +18,7 @@ exclude:
 plugins:
     - jekyll-paginate
     - jekyll-feed
+    - jekyll-avatar
 
 paginate: 5
 
