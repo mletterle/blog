@@ -207,6 +207,7 @@ a.sidebar-nav-item:focus {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  display: none;
 }
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
@@ -234,14 +235,12 @@ a.sidebar-nav-item:focus {
 }
 
 .sidebar-toggle:active,
-#sidebar-checkbox:focus ~ .sidebar-toggle,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   color: #fff;
   background-color: #555;
 }
 
 .sidebar-toggle:active:before,
-#sidebar-checkbox:focus ~ .sidebar-toggle:before,
 #sidebar-checkbox:checked ~ .sidebar-toggle:before {
   background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
   background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
