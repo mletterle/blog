@@ -7,3 +7,7 @@ img.avatar {
     margin: auto;
     text-align: center;
 }
+
+code {
+    color: #24292e;
+}
